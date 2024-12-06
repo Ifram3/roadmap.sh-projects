@@ -13,6 +13,7 @@ header {
 
 .brand {
     margin-left: 20px ; 
+    flex: 0.5;
 }
 
 .brand > img {
@@ -23,11 +24,15 @@ header {
 span {
     font-size: 15px;
     vertical-align: middle;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
 }
 
 .title {
     align-self: center;
     line-height: 30px;
+    flex: 3;
+    text-align: center;
 }
 
 .title > h1 {
@@ -41,10 +46,33 @@ span {
     font-family: "Hind Mysuru", sans-serif;
     font-weight: 600;
     font-style: normal;
-    text-align: center;
     color: lightslategray;
     font-size: 20px;
 }
 
-/* TODO: Stopped at finding the right text color for the p tag under frontend developer
-NEXT: find a matching font for iFram3 text  */
+
+ul {
+    margin-right: 30px;
+    margin-top: 5px;
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li > a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+li:not(:last-child)::after {
+    content: " / ";
+}
+
+
+
+
+
+/* TODO: Stopped at figuring li:not(:last-child)::after content: " / "; out
+   NEXT: continue from there...*/
