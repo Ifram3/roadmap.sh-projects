@@ -1,0 +1,50 @@
+body {
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid black;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.brand {
+    margin-left: 20px ; 
+}
+
+.brand > img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+span {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.title {
+    align-self: center;
+    line-height: 30px;
+}
+
+.title > h1 {
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.title p {
+    font-family: "Hind Mysuru", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: lightslategray;
+    font-size: 20px;
+}
+
+/* TODO: Stopped at finding the right text color for the p tag under frontend developer
+NEXT: find a matching font for iFram3 text  */
