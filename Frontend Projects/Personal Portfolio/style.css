@@ -2,7 +2,7 @@ body {
     border: 2px solid black;
     margin: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 550;
     font-size: 20px;
     color: #000000;
 }
@@ -82,16 +82,19 @@ aside {
     display: flex;
     flex-direction: column;
     flex: 1.5;
-    border-right: 1px solid black;
+    border-right: 2px solid black;
 }
 
 aside h3 {
     padding-left: 20px;
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav p {
     margin-top: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     padding-left: 20px;
     padding-bottom: 10px;
 }
@@ -106,6 +109,23 @@ p a {
     flex: 3;
 }
 
+.work-experience h3 {
+    padding-left: 20px;
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+article {
+    padding-left: 20px;
+}
+
+article ~ p {
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .education {
     flex: 2;
 }
@@ -116,5 +136,7 @@ p a {
 
 
 
-/* TODO: Stopped at changing the font-family, font-size, font-weight and color of the entire body
-   NEXT: style the font-family for projects under aside...*/
+
+
+/* TODO: Stopped at trying to style <p>roadmap.sh</p> seperately without using class or id to specialize it
+   NEXT: font-family for <p>roadmap.sh</p>...*/
