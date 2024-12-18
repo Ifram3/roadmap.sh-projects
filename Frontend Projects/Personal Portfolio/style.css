@@ -1,17 +1,35 @@
+:root {
+    --primary-color: #778899; 
+    --secondary-color: #0d92d5;
+    --font-color: #000000;
+    --bgcolor: #fbf7f7;
+    --heading-color: #c1b7b7; 
+}
+
+[data-theme="dark"] {
+    --primary-color: #778899;
+    --secondary-color: #03DAC6;
+    --font-color: #dfdbdb;
+    --bgcolor: #121212;
+    --heading-color: #cab7e1;
+}
+
+
 body {
-    border: 2px solid black;
+    border: 2px solid var(--font-color);
     margin: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 540;
     font-size: 20px;
-    color: #000000;
+    color: var(--font-color);
+    background-color: var(--bgcolor);
 }
 
 header {
     /* display: flex;
     justify-content: space-between; */
     /* align-items: flex-start; */
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--font-color);
     height: 300px;
     margin-top: 20px;
     /* flex-flow: row wrap; */
@@ -41,6 +59,9 @@ span {
     vertical-align: middle;
     font-weight: 550;
 }
+.whenIgrowup nav {
+    display: flex;
+}
 
 nav ul{
     /* flex-basis: 100px; */
@@ -48,23 +69,70 @@ nav ul{
     display: flex;
     gap: 10px; 
     list-style: none;
-    margin: 0 30px 0 0;
+    /* margin: 0 30px 0 0; */
+    margin: 0 10px 0 0;
     padding: 0;
     /* flex-flow: row wrap; */
     /* border: 1px solid red; */
-    
 }
 
 li a {
     text-decoration: none;
     margin-right: 10px;
-    color: #000000;
+    color: var(--font-color);
     font-weight: 550;
 }
 
 nav li:not(:last-child)::after {
     content: "/";
 } 
+
+.hosanna {
+    margin-right: 10px;
+}
+
+.refix {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    display: inline-block;
+    top: -6px;
+}
+
+.refix input {
+    display: none;
+}
+
+.leelee {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: .4s;
+    background-color: var(--font-color);
+    border-radius: 36px;
+}
+
+.leelee::before {
+    position: absolute;
+    content: "";
+    background-color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    left: 4px;
+    top: 5px;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked + .leelee {
+    background-color: darkgrey;
+}
+
+input:checked + .leelee::before {
+    transform: translateX(25px);
+}
 
 .title {
     /* align-self: center;
@@ -92,14 +160,14 @@ nav li:not(:last-child)::after {
     font-family: "Hind Mysuru", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: lightslategray;
+    color: var(--primary-color);
     font-size: 20px;
 }
 
 .main-upper {
     display: flex;
     height: 450px;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--font-color);
 }
 
 aside {
@@ -108,7 +176,7 @@ aside {
     /* flex-basis: 300px; */
     min-width: 300px;
     flex: 1;
-    border-right: 2px solid black;
+    border-right: 2px solid var(--font-color);
 }
 
 aside h3 {
@@ -120,7 +188,7 @@ aside h3 {
 
 nav p {
     margin-top: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--font-color);
     padding-left: 30px;
     padding-bottom: 10px;
 }
@@ -128,14 +196,14 @@ nav p {
 p a {
     padding: 10px 0;
     text-decoration: none;
-    color: #000000;
+    color: var(--font-color);
 }
 
 .work-experience {
     /* flex-basis: 700px; */
     min-width: 500px;
     flex: 3;
-    border-right: 2px solid #000000;
+    border-right: 2px solid var(--font-color);
     flex-flow: row wrap;
 }
 
@@ -151,7 +219,7 @@ p a {
     padding-left: 30px;
     line-height: 13px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--font-color);
 }
 
 #work {
@@ -164,7 +232,7 @@ p a {
 #roadmap a {
     font-size: 16px;
     text-decoration: none;
-    color: #0d92d5;
+    color: var(--secondary-color);
 }
 
     /* Middle Lower-Section */
@@ -181,7 +249,7 @@ p a {
 #opensource a {
     font-size: 16px;
     text-decoration: none;
-    color: #0d92d5;
+    color: var(--secondary-color);
 }
 
 .education {
@@ -229,9 +297,13 @@ p a {
 }
 
 .cementcity {
-    border: 2px solid #000000;
+    border: 2px solid var(--font-color);
     padding: 0 15px;
     border-radius: 40px;
+}
+
+.staff {
+    color: var(--heading-color);
 }
 
 footer {
