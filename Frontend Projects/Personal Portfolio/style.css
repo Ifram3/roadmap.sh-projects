@@ -14,7 +14,6 @@
     --heading-color: #cab7e1;
 }
 
-
 body {
     border: 2px solid var(--font-color);
     margin: 30px;
@@ -48,17 +47,20 @@ header {
     /* max-width: 200px; */
     /* border: 1px solid red; */
     /* flex-wrap: wrap; */
+    display: flex;
+    gap: 10px;
 }
 
 .brand > img {
     width: 50px;
-    vertical-align: middle;
 }
 
-span {
-    vertical-align: middle;
+#span {
+    /* vertical-align: middle; */
     font-weight: 550;
+    align-self: center;
 }
+
 .whenIgrowup nav {
     display: flex;
 }
@@ -162,6 +164,50 @@ input:checked + .leelee::before {
     font-style: normal;
     color: var(--primary-color);
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .whenIgrowup {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+    }
+
+    .brand {
+        flex-direction: column;
+    }
+
+    #span {
+        position: relative;
+        right: 5px;
+        top: 5px;
+    }
+    
+    .hosanna {
+        position: absolute;
+        top: 10px;
+        right: -5px;
+    }
+
+    .leelee {
+        width: 45px;
+        height: 30px;
+    }
+
+    .leelee::before {
+        width: 20px;
+        height: 20px;
+    }
+
+    input:checked + .leelee::before {
+        transform: translateX(19px);
+    }
+
+    .title {
+        margin-top: 0px;  
+    }
+
 }
 
 .main-upper {
@@ -313,20 +359,3 @@ footer {
     font-style: normal;
     height: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* TODO: Stopped at 
-    #reviews {
-        margin-left: 30px;
-    }
-   NEXT: Style the remaining part of the reviews...*/
