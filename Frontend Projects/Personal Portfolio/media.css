@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+    header {
+        height: 260px;
+    }
+
+    .whenIgrowup {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+    }
+
+    .brand {
+        flex-direction: column;
+    }
+
+    #span {
+        position: relative;
+        right: 5px;
+        top: 5px;
+    }
+    
+    .hosanna {
+        position: absolute;
+        top: 10px;
+        right: -5px;
+    }
+
+    .leelee {
+        width: 45px;
+        height: 30px;
+    }
+
+    .leelee::before {
+        width: 20px;
+        height: 20px;
+    }
+
+    input:checked + .leelee::before {
+        transform: translateX(19px);
+    }
+
+    .title {
+        margin-top: 30px; 
+        line-height: 2px; 
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .main-upper {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    aside {
+        border: none;
+        text-align: center;
+    }
+
+    aside h3 {
+        border-bottom: 2px solid var(--font-color);
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+
+    aside nav {
+        background-color: var(--nav-color);
+        margin-top: -23px;
+        padding: 20px 0;
+        height: 300px;
+    }
+
+    #product {
+        border-bottom: 2px solid var(--font-color);
+        padding-bottom: 20px;
+    }
+    .work-experience {
+        border: none;
+    }
+
+    .work-experience h3{
+        text-align: center;
+        margin-top: 0;
+        padding: 15px 0;
+        border-bottom: 2px solid var(--font-color);
+        font-size: 20px;
+        background-color: var(--bgcolor);
+    }
+
+    #roadmap {
+        background-color: var(--nav-color);
+        margin-top: -35px;
+        padding-top: 15px;
+    }
+
+    #opensource {
+        background-color: var(--nav-color);
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .education h3 {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    #courses {
+        margin-top: 0;
+    }
+
+
+
+
+    
+    
+
+}
