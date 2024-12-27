@@ -260,7 +260,6 @@ p a {
     color: var(--secondary-color);
 }
 
-
 .education {
     /* flex-basis: 500px; */
     min-width: 400px;
@@ -322,3 +321,5 @@ footer {
     font-style: normal;
     height: 80px;
 }
+
+
