@@ -1,15 +1,51 @@
 @media screen and (min-width: 768px) {
+    .main-upper {
+        height: 575px;
+    }
+
     aside {
-        min-width: 190px;
-        flex-wrap: wrap;
+        min-width: 190px;  
+    }
+
+    aside h3 {
+        padding-left: 15px;
+    }
+
+    nav p {
+        padding-left: 15px;
     }
 
     .work-experience {
-        min-width: 250px;
+        min-width: 190px;   
+    }
+
+    .work-experience h3 {
+        padding-left: 15px;
+    }
+
+    #roadmap {
+        padding-left: 15px;
+    }
+
+    #solve {
+        line-height: 20px;
+    }
+
+    #opensource {
+        padding-left: 15px;
     }
 
     .education {
-        min-width: 250px;
+        min-width: 265px;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .main-upper {
+        height: 450px;
     }
     
 }
@@ -204,14 +240,18 @@
     }
 }
 
-@media screen and (max-width: 391px) and (min-width: 390px){
+@media screen and (max-width: 391px) /* and (min-width: 390px) */{
     nav ul {
         margin-left: 20px;
     }
+
+    #roadmap {
+        line-height: 20px;
+    }
 }
 
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 361px) {
     nav ul {
-        margin-left: 40px;
+        margin-left: 50px;
     }
 }
