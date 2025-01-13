@@ -206,7 +206,6 @@ p a {
     border: none;
 }
 
-
 .work-experience {
     /* flex-basis: 700px; */
     min-width: 500px;
@@ -320,6 +319,4 @@ footer {
     font-weight: 400;
     font-style: normal;
     height: 80px;
-}
-
-
+}    

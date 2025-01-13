@@ -47,6 +47,16 @@
     .main-upper {
         height: 450px;
     }
+
+    aside {
+        min-width: 220px;
+    }
+
+    .education {
+        min-width: 300px;
+    }
+
+
     
 }
 
@@ -108,7 +118,6 @@
         margin-right: 5px;
     }
     
-
     .title {
         margin-top: 30px; 
         line-height: 2px; 
@@ -131,28 +140,25 @@
     }
 
     aside {
-        border: none;
+        border-right: none;
         text-align: center;
         min-width: 100px;
+        border-bottom: 2px solid var(--font-color); 
     }
 
     aside h3 {
         border-bottom: 2px solid var(--font-color);
         padding-bottom: 20px;
         padding-top: 20px;
-        margin-top: 0;
+        margin: 0;
+        background-color: red;
     }
 
     aside nav {
         background-color: var(--nav-color);
-        margin-top: -23px;
-        padding: 20px 0;
-        height: 300px;
-    }
-
-    #product {
-        border-bottom: 2px solid var(--font-color);
-        padding-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 15px;
     }
 
     .work-experience {
@@ -200,8 +206,7 @@
     .reviews {
         /* background-color: aqua; */
         max-height: 920px; 
-        min-width: 100px;
-        
+        min-width: 100px;   
     }
 
     .reviews h3 {
@@ -238,9 +243,19 @@
         gap: 5px;
         margin-left: -14px;
     }
+
+    .education {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .reviews h3{
+        padding-left: 0px;
+    }
+    
 }
 
-@media screen and (max-width: 391px) /* and (min-width: 390px) */{
+@media screen and (max-width: 393px) /* and (min-width: 390px) */{
     nav ul {
         margin-left: 20px;
     }
@@ -248,10 +263,174 @@
     #roadmap {
         line-height: 20px;
     }
+
+    .education {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .reviews h3{
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 361px) {
     nav ul {
         margin-left: 50px;
+    }
+
+    .education {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .reviews h3{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 170px) {
+    body {
+        font-size: 10px;
+    }
+    
+    header {
+        height: 210px;
+    }
+
+    .whenIgrowup {
+        align-items: flex-start; 
+        gap: 8px; 
+    }
+
+    .brand {
+        margin-left: 10px;
+    }
+
+    .brand > img {
+        width: 35px;
+    }
+
+    #span {
+        right: 1px;
+        top: -5px;
+    }
+
+    .hosanna {
+        top: 5px;
+        right: -35px;
+    }
+
+    .leelee {
+        width: 30px;
+        height: 25px;
+    }
+
+    .leelee::before {
+        width: 15px;
+        height: 15px;
+    }
+
+    input:checked + .leelee::before {
+        transform: translateX(9px);
+    }
+
+    nav ul {
+        margin-left: 0;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    li a {
+        margin-left: -10px;
+        gap: 10px;
+    }
+
+    nav li:not(:last-child)::after {
+        content: "";
+    }
+
+    .title {
+        margin-top: 5px;  
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .title h1 {
+        font-size: 15px;
+        min-width: 100px;
+        line-height: 18px;
+        margin-bottom: -3px;
+    }
+
+    .title p {
+        min-width: 100px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    aside {
+        text-align: left;
+    }
+
+    aside h3{
+        padding: 10px 0 10px 8px;
+        margin: 0;
+    }
+
+    aside nav {
+        padding: 10px 0;
+        margin: 0;
+    }
+
+     nav p {
+        padding-left: 8px;
+    } 
+
+    .work-experience h3 {
+        text-align: left;
+        padding-left: 10px; 
+    }
+
+    #roadmap, #opensource {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /* #roadmap {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    #opensource {
+        text-align: left;
+        padding-left: 10px;
+    } */
+
+    .education {
+        padding-left: 10px;   
+    }
+
+    .education h3 {
+        text-align: left;
+        margin-bottom: -10px;
+    }
+
+    #courses {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .education ul {
+        line-height: 20px;
+    }
+
+    .reviews {
+        margin-left: 5px;  
+    }
+
+    .reviews h3 {
+        fot-size: 15px;
+        padding-left: 10px;
     }
 }
