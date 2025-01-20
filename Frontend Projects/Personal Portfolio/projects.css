@@ -4,10 +4,10 @@ body {
     font-size: 20px;
     background-color: white;
     background-color: #282725;
-    /* border: 2px solid red; */
-    width: 1200px;
-    margin: 30px auto;
+    border: 2px solid red;
+    margin: 10px auto;
     color: #EEEAE3;
+    width: 1200px;
 }
 
 header {
@@ -45,7 +45,7 @@ hr {
 nav ul {
     display: flex;
     list-style: none;
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 0;
     padding: 10px;
     gap: 35px;
@@ -58,9 +58,9 @@ li a {
 }
 
 main {
-    width: 1000px;
     margin: auto;
-    /* border: 2px solid green; */
+    border: 2px solid green;
+    width: 1000px;
 }
 
 .star_life {
@@ -84,7 +84,8 @@ h3 {
 .recent_work {
     display: flex;
     flex-flow: row wrap;
-    gap: 50px;
+    gap: 40px;
+    margin-top: 30px;
 }
 
 .first {
