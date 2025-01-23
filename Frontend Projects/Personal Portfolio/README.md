@@ -33,6 +33,10 @@ The focus will be on learning how to use CSS to create responsive layouts, apply
 - **HTML5** for for strucuturing the page semantically 
 - **Meta Tags** and **Open Graph** for SEO and Social Media Optimization.
 - **CSS3** for styling the website and making it responsive.
+- **Flexbox** for creating responsive layouts.
+- **Media Queries** for responsive design.
+- **Google Fonts** for typography.
+- **JavaScript** for triggering darkmode feature.
 
 ## Future Technolgies
 
