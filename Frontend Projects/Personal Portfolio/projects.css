@@ -4,10 +4,9 @@ body {
     font-size: 20px;
     background-color: white;
     background-color: #282725;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 10px auto;
     color: #EEEAE3;
-    width: 1200px;
 }
 
 header {
@@ -24,7 +23,6 @@ hr {
 .african_giant {
     display: flex;
     gap: 8px;
-    /* background-color: red; */
     padding: 10px;
     height: 30px;
     margin-bottom: 0;
@@ -59,8 +57,7 @@ li a {
 
 main {
     margin: auto;
-    border: 2px solid green;
-    width: 1000px;
+    /* border: 2px solid green; */
 }
 
 .star_life {
@@ -86,25 +83,24 @@ h3 {
     flex-flow: row wrap;
     gap: 40px;
     margin-top: 30px;
+    margin-bottom: 10px;
+    justify-content: space-around;
 }
 
 .first {
     border: 2px solid cadetblue red blue;
-    width: 460px;
+    width: 440px;
     border-radius: 30px;
     box-shadow: 0px 0px 8px 8px #555451;
     background-color: #EEEAE3;
     color: black;  
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-bottom: 5px;
+    margin: 5px 10px;
 }
 
 .bunch {
     width: 92%;
     height: 150px;
     border-radius: 10px;
-    /* border: 1px solid red; */
     margin-left: 15px;
     margin-top: 10px;
 }
@@ -162,13 +158,17 @@ h3 {
 .cv > p {
     margin-top: 15px;
     font-size: 20px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
 }
 
 #single {
     position: relative;
     top: 55px;
+}
+
+#web {
+    width: 25px;
 }
 
 footer {
@@ -179,3 +179,224 @@ footer > p {
     text-align: center;
     margin-top: 45px;
 }
+
+
+
+
+
+@media only screen and (max-width: 319px) {
+    body {
+        font-size: 10px;
+        margin: 0;
+    }
+    
+    header {
+        flex-flow: column;
+    }
+
+    .african_giant {
+        height: 15px;
+
+    }
+
+    .african_giant > img {
+        width: 30px;
+    }
+
+    nav ul {
+        gap: 5px;
+        margin-top: 0;
+        padding: 0;
+        margin-left: 5px;
+    }
+
+    main {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .recent_work {
+        margin: 0;
+        gap: 5px;
+    }
+
+    .first {
+        width: 135px;
+        margin: 5px 0;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px 3px #555451;
+    }
+
+    .bunch {
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .cv {
+        margin: 8px;
+    }
+
+    .cv > p {
+        font-size: 8px;
+        margin-top: 8px;
+    }
+
+    #single {
+        top: 0;
+    }
+
+    #web {
+        width: 10px;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+
+    footer > p {
+        margin-top: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 411px) {
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .african_giant {
+        gap: 10px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .recent_work {
+        gap: 15px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .first {
+        box-shadow: 0px 0px 5px 5px #555451;
+    }
+
+    .cv > p {
+        font-size: 14px;
+    }
+
+    #single {
+        top: 0;
+    }
+
+    #web {
+        width: 15px;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+
+    footer > p {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 599px) {
+    body {
+        width: auto;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .african_giant {
+        gap: 25px;
+    }
+
+    nav ul {
+        gap: 40px;
+    }
+
+    main {
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #single {
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    body {
+        width: 595px;
+    }
+
+    main {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        width: 765px;
+    }
+
+    main {
+        width: 660px;
+    }
+
+    .recent_work {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .first {
+        width: 600px;
+    }
+
+    #single {
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        width: 990px;
+    }
+
+    main {
+        width: 850px;
+    }
+
+    .first {
+        width: 380px;
+    }
+
+}
+
+ @media only screen and (min-width: 1200px) {
+    body {
+        width: 1200px;
+    }
+
+    main {
+        width: 1000px;
+    }
+} 
