@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    /* background-color: #f2efea; */
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    background-color: #f2efea;
+}
+
+.believe {
+    background-color: #e8ded7;
+    height: 30px;
+}
+
+.hard {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.everyday {
+    display: flex;
+    gap: 8px;
+    /* padding: 10px; 
+    background-color: red; */
+    height: 30px;
+    align-items: center;
+}
+
+.everyday > img {
+    width: 50px;
+    height: 30px;
+}
+
+#span {
+    /* align-self: flex-start; */
+    font-weight: 550;
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding: 10px; */
+    gap: 35px;
+}
+
+li a {
+    text-decoration: none;
+    color: #0d0c0c;
+    font-weight: 500;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: #fdfdfd;
+    margin-top: 20px;
+}
+
+.thoughts {
+    background-color: #394053;
+    height: 450px;
+    margin-top: 25px;
+    color: #fdfdfd;
+}
+
+.statement {
+    padding: 100px;
+}
+
+.statement > p {
+    margin-bottom: 25px;
+}
+
+button {
+    margin-top: 100px;
+    padding: 20px 35px;
+}
+
+section {
+    margin-top: 45px;
+}
+
+.finance {
+    width: 400px;
+    background-color: white;
+    height: 500px;
+}
+
+.finance > img {
+    width: 400px;
+    height: 300px;
+}
+
+.dui {
+    padding: 35px;
+}
+
+.dui > p {
+    background-color: #5b325b;
+    border-radius: 20px;
+    width: 100px;
+    color: #f3f3f3;
+    padding: 5px 0 3px 10px;
+    font-size: 15px;
+}
+
+.dui > h4 {
+    margin-top: 20px;
+}
