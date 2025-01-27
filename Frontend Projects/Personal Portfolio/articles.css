@@ -92,6 +92,8 @@ button {
 
 section {
     margin-top: 45px;
+    display: flex;
+    gap: 12px;
 }
 
 .finance {
@@ -106,18 +108,40 @@ section {
 }
 
 .dui {
-    padding: 35px;
+    padding: 10px 35px;
+    margin-top: 20px;
 }
 
-.dui > p {
-    background-color: #5b325b;
+#calories {
+    background-color: #784b78e6;
     border-radius: 20px;
-    width: 100px;
+    display: inline-block;
     color: #f3f3f3;
-    padding: 5px 0 3px 10px;
+    padding: 5px 10px 3px 10px;
     font-size: 15px;
 }
 
+#diets {
+    background-color: #a56c57;
+    border-radius: 20px;
+    color: #f3f3f3;
+    padding: 5px 10px 3px 10px;
+    font-size: 15px;
+    display: inline-block;
+}
+
 .dui > h4 {
-    margin-top: 20px;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+#date{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+span {
+    font-size: 34px;
+    /* vertical-align: middle; */
+    
 }
