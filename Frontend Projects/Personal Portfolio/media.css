@@ -1,0 +1,19 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .hard {
+        width: 765px;
+   }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hard {
+        width: 950px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hard {
+        width: 1200px;
+        margin: auto;
+    }
+} 

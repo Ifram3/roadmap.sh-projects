@@ -15,16 +15,15 @@ body {
     height: 30px;
 }
 
-.hard {
+/* .hard {
     width: 1200px;
     margin: auto;
-}
+} */
 
 header {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    position: ;
 }
 
 .everyday {
