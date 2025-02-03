@@ -1,22 +1,23 @@
 * {
     box-sizing: border-box;
-    /* background-color: #f2efea; */
     margin: 0;
 }
 
 body {
-    font-size: 18px;
     background-color: #f2efea;
+    font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .believe {
     background-color: #e8ded7;
     height: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 /* .hard {
-    width: 1200px;
+    width: 1000px;
     margin: auto;
 } */
 
@@ -28,35 +29,23 @@ header {
 
 .everyday {
     display: flex;
-    gap: 8px;
-    /* padding: 10px; 
-    background-color: red; */
+    gap: 8px; 
     height: 30px;
     align-items: center;
 }
 
-.everyday > img {
-    width: 50px;
-    height: 30px;
-}
-
-#span {
-    /* align-self: flex-start; */
-    font-weight: 550;
+#span {  
     font-family: "VT323", serif;
     font-weight: 400;
     font-style: normal;
-    vertical-align: middle;
-}
+} 
 
 nav ul {
     display: flex;
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    /* padding: 10px; */
+    margin-top: 5px;
     gap: 35px;
-}
+} 
 
 li a {
     text-decoration: none;
@@ -113,7 +102,7 @@ section {
     height: 500px;
 }
 
-.finance > img {
+.huge {
     width: 400px;
     height: 300px;
 }
@@ -141,7 +130,7 @@ section {
     display: inline-block;
 }
 
-.dui > h4 {
+.dui h4 {
     margin-top: 18px;
     margin-bottom: 0;
 }
@@ -152,33 +141,36 @@ section {
 }
 
 span {
-    font-size: 34px; 
+    font-size: 34px;
 }
 
 .moon {
-        background-color: #edded3;
-        height: 580px;
-        margin-top: 25px;
-        color: #fdfdfd;
-}
+    background-color: #edded3;
+    height: 580px;
+    margin-top: 25px;
+    color: #fdfdfd;
+    font-size: 15px;
+} 
 
 .house {
     color: #000000;
-    /* border: 1px solid red; */
-    display: inline-block;
-    padding: 35px 400px;
-    text-align: center;
-    /* background-color: blue; */
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #stay {
-    font-size: 15px;
+    margin-top: 35px;
     margin-bottom: 30px;
 }
 
+#solve {
+    font-size: 42px;
+    font-family: serif;
+    font-weight: 400;
+}
+
 #news {
-    font-size: 15px;
     margin-top: 20px;
     margin-bottom: 35px;
 }
@@ -187,14 +179,12 @@ form {
     display: flex;
     flex-direction: column;
     gap: 12px;
-
 }
 
 input {
     border: none;
-    padding: 22px;
+    padding: 12px 32px;
     width: 370px;
-    font-size: 15px;
 }
 
 ::placeholder {
@@ -209,15 +199,16 @@ input {
 }
 
 form p {
-    font-size: 15px;
     color:rgba(131, 127, 127, 0.7);
 }
 
 footer {
-    background-color: #2c2d36; 
-    padding: 100px;
+    background-color: #2c2d36;
     margin-top: 100px;
-    text-align: center;
     color: #f3f3f3;
     font-size: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
