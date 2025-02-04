@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #F9FAFF;
+}
+
+header {
+    width: 1440px;
+    height: 56px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.sex {
+    width: 1200px;
+    /* background-color: green; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+span {
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 180%;
+    opacity: 100%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    gap: 48px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 100%;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 15px;
+}
+
+.grammy {
+    width: 588px;
+    height: 275px;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.grammy h1 {
+    font-size: 40px;
+    height: 62px;
+    width: 486px;
+    line-height: 130%;
+    color: #333333;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    opacity: 100%;
+}
+
+.grammy p {
+    line-height: 150%;
+    width: 580px;
+    height: 144px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #828282;
+    opacity: 100%;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 20px;
+    background-color: #FDC435;
+    border: none;
+    width: 114px;
+    height: 43px;
+    opacity: 100%;
+    font-weight: bold;
+}
+
+.dumebi {
+    width: 524px;
+    height: 524px;
+    border: 1px solid blue 
+}
+
+.kolo {
+    background-color: #FDC435;
+    border-radius: 600%;
+    width: 522px;
+    height: 522px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#low {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    /* border-radius: 600%; */
+} 
+
+
+
+
