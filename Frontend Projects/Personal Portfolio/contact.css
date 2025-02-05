@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+body {
     background-color: #F9FAFF;
 }
 
@@ -111,28 +114,83 @@ button {
 .dumebi {
     width: 524px;
     height: 524px;
-    border: 1px solid blue 
-}
-
-.kolo {
-    background-color: #FDC435;
-    border-radius: 600%;
-    width: 522px;
-    height: 522px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
+    opacity: 100%;
+    /* border: 1px solid blue; */
 }
 
 #low {
     object-fit: cover;
-    width: 100%;
-    height: auto;
-    /* border-radius: 600%; */
+    border-radius: 600%;
+    width: 520px;
+    height: 520px;    
 } 
 
+footer {
+    width: 1440px;
+    height: 1004px;
+    margin: auto;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+footer h3 {
+    width: 181px;
+    height: 80px;
+    /* border: 1px solid red; */
+    font-size: 35px;
+    opacity: 100%;
+}
+
+#lift {
+    border: 2px solid #FDC435;
+    width: 100px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+form {
+    width: 400px;
+    height: 603px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 18px;
+}
+
+input {
+    width: 400px;
+    height: 35px;
+    border-radius: 8px;
+    border: 0.2px solid #efeaea;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 400px;
+    height: 190px;
+}
+
+#bianu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#submit {
+    width: 89px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 18px;
+}
 
 
 
