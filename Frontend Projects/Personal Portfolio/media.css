@@ -1,15 +1,125 @@
 @media only screen and (min-width: 412px) and (max-width: 599px) {
+    header, main, footer {
+        width: 100%;
+        margin: 0;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .header-content {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+    }
+
+    span {
+        display: flex;
+        font-size: 16px;
+    }
+
+    nav ul {
+        gap: 38px;
+        padding: 0;
+    }
+
+    li a {
+        font-size: 16px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-content {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: 250px;
+        z-index: 1;
+    }
+
+    .hero-content h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .hero-content p {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        /* border: 1px solid red; */
+    }
+
+    .profile-image {
+        width: 224px;
+        height: 224px;
+        position: absolute;
+        z-index: 2;
+        /* border: 1px solid red; */
+    }
+
+    .profile-image #low {
+        width: 220px;
+        height: 220px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    footer {
+        min-height: 904px;
+        margin-top: 60px;
+    }
+
+    footer h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .socio-icon {
+        width: 60px;
+        margin: auto;
+    }
+
+    form {
+        width: 350px;
+        font-size: 16px;
+    }
     
+    input {
+        width: 350px;
+    } 
+
+    textarea {
+        width: 350px;
+    } 
+
+    #submit {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
     header {
         width: 100%;
+        height: auto;
     }
 
-    .sex {
+    .header-content {
         width: 100%;
         margin: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 5px;
     }
 
     span {
@@ -18,50 +128,44 @@
 
     nav ul {
         gap: 38px;
+        padding: 0;
     }
 
-    li a {
+    nav ul li a {
         font-size: 16px;
     }
 
     main {
-        width: 560px;
+        width: 100%;
         margin: 0;
     }
 
-    .grammy {
-        width: 420px;
-        height: 260px;
-        /* border: 1px solid green; */
-        /* position: relative; */
-        /* top: 150px;  */
-        /* z-index: 1;
-        margin-top: 200px; */
+    .header-content {
+        width: 300px;
+        height: 298px;
     }
 
-    .grammy h1 {
+    .hero-content h1 {
         font-size: 30px;
         height: 42px;
     }
 
-    .grammy p {
-        width: 400px;
-        height: 150px;
+    .hero-content p {
+        width: 300px;
+        height: 240px;
         font-size: 18px;
+        /* border: 1px solid red; */
     }
 
-    .dumebi {
-        width: 274px;
-        height: 274px;
-        /* position: absolute; */
-        /* top: 80px;  */
-        /* z-index: 2; */
+    .profile-image {
+        width: 240px;
+        height: 240px;
         margin-top: 10px;
     }
 
-    #low {
-        width: 270px;
-        height: 270px;
+    .profile-image #low {
+        width: 235px;
+        height: 235px;
     }
 
     footer {
@@ -78,7 +182,7 @@
         /* border: 1px solid red;  */
     }
 
-    #lift {
+    .socio-icon {
         width: 70px;
         margin: auto;
     }
@@ -97,7 +201,7 @@
         width: 100%;
     }
 
-    .sex {
+    .header-content {
         width: 765px;
     }
 
@@ -105,28 +209,28 @@
         width: 765px;
     }
 
-    .grammy {
+    .hero-content {
         width: 360px;
         height: 354px;
         /* border: 1px solid red; */
     }
 
-    .grammy h1 {
+    .hero-content h1 {
         width: 300px;
     }
 
-    .grammy p {
+    .hero-content p {
         width: 350px;
         height: 220px;
     }
 
-    .dumebi {
+    .profile-image {
         width: 350px;
         height: 350px;
         margin-top: 20px;
     }
 
-    #low {
+    .profile-image #low {
         width: 348px;
         height: 348px;
     }
@@ -146,7 +250,7 @@
         width: 992px;
     }
 
-    .sex {
+    .header-content {
         width: 990px;
     }
 
@@ -154,25 +258,25 @@
         width: 990px;
     }
 
-    .grammy {
+    .header-content {
         width: 488px;
     }
 
-    .grammy h1 {
+    .hero-content h1 {
         width: 386px;
     }
 
-    .grammy p {
+    .hero-content p {
         width: 480px;
         height: 190px;
     }
 
-    .dumebi {
+    .profile-image {
         width: 424px;
         height: 424px;
     }
 
-    #low {
+    .profile-image #low {
         width: 420px;
         height: 420px;
     }
@@ -192,7 +296,7 @@
         width: 1190px;
     }
 
-    .sex {
+    .header-content {
         width: 1150px;
     }
 
@@ -204,6 +308,3 @@
         width: 1190px;
     }
 }
-
-/* @media only screen and (min-width: 1440px) {   
-} */
