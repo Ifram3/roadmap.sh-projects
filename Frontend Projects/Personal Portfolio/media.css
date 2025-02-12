@@ -1,3 +1,225 @@
+/* @media only screen and (max-width: 319px) {
+    header, main, footer {
+        width: 100%;
+        margin: 0;
+    } 
+
+    header {
+        height: auto;
+    }
+
+    .header-content {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        padding: 0;
+    }
+
+    .header-content span {
+        font-size: 14px;
+        align-self: center;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+
+    nav ul li {
+        min-width: 150px;
+        background-color: aqua;
+    }
+
+     nav ul li a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-content {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 200px;
+        z-index: 1;
+    }
+
+    .hero-content h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .hero-content p {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 10px;
+    }
+
+    .profile-image #low {
+        width: 160px;
+        height: 160px;
+    }
+
+    button {
+        padding: 4px 10px;
+        width: 100px;
+        height: 33px;
+    }
+
+    footer {
+        margin-top: 80px;
+        height: 804px;
+    }
+
+    footer h3 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .socio-icon {
+        width: 60px;
+    }
+
+    form {
+        max-width: 270px;
+        font-size: 16px;
+    }
+    
+    input, textarea {
+        width: 100% ;
+        margin: 0 auto;
+    } 
+
+    #submit {
+        font-size: 16px;
+    }
+
+} */
+
+@media only screen and (min-width: 320px) and (max-width: 411px) {
+    header, main, footer {
+        width: 100%;
+        margin: 0;
+    } 
+
+    header {
+        height: auto;
+    }
+
+    .header-content {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 5px;
+    }
+
+    .header-content span {
+        font-size: 16px;
+    }
+
+    nav ul {
+        gap: 30px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-content {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid green; */
+        position: relative;
+        margin-top: 200px;
+        z-index: 1;
+    }
+
+    .hero-content h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .hero-content p {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        /* border: 1px solid red; */
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .profile-image #low {
+        width: 160px;
+        height: 160px;
+    }
+
+    button {
+        padding: 4px 10px;
+        width: 100px;
+        height: 33px;
+    }
+
+    footer {
+        margin-top: 80px;
+        height: 804px;
+    }
+
+    footer h3 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .socio-icon {
+        width: 60px;
+    }
+
+    form {
+        max-width: 270px;
+        font-size: 16px;
+    }
+    
+    input, textarea {
+        width: 100% ;
+        margin: 0 auto;
+    } 
+
+    #submit {
+        font-size: 16px;
+    }
+}
+
 @media only screen and (min-width: 412px) and (max-width: 599px) {
     header, main, footer {
         width: 100%;
@@ -17,8 +239,7 @@
         padding: 5px;
     }
 
-    span {
-        display: flex;
+    .header-content span {
         font-size: 16px;
     }
 
@@ -27,7 +248,7 @@
         padding: 0;
     }
 
-    li a {
+    nav ul li a {
         font-size: 16px;
     }
 
@@ -41,7 +262,7 @@
         height: auto;
         /* border: 1px solid green; */
         position: relative;
-        margin-top: 250px;
+        margin-top: 270px;
         z-index: 1;
     }
 
@@ -62,16 +283,13 @@
         height: 224px;
         position: absolute;
         z-index: 2;
+        margin-top: 20px;
         /* border: 1px solid red; */
     }
 
     .profile-image #low {
         width: 220px;
         height: 220px;
-    }
-
-    button {
-        margin-top: 10px;
     }
 
     footer {
@@ -116,18 +334,16 @@
     .header-content {
         width: 100%;
         margin: 0;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
+        gap: 10px;
         padding: 5px;
     }
 
-    span {
+    .header-content span {
         font-size: 16px;
     }
 
     nav ul {
-        gap: 38px;
+        gap: 20px;
         padding: 0;
     }
 
@@ -140,54 +356,61 @@
         margin: 0;
     }
 
-    .header-content {
-        width: 300px;
-        height: 298px;
+    .hero-content {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
     }
 
     .hero-content h1 {
         font-size: 30px;
         height: 42px;
+        line-height: 1.2;
     }
 
     .hero-content p {
-        width: 300px;
-        height: 240px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
         font-size: 18px;
         /* border: 1px solid red; */
     }
 
     .profile-image {
-        width: 240px;
-        height: 240px;
-        margin-top: 10px;
+        width: 245px;
+        height: 245px;
     }
 
     .profile-image #low {
-        width: 235px;
-        height: 235px;
+        width: 240px;
+        height: 240px;
     }
 
     footer {
         width: 100%;
-        margin: auto;
+        margin: 20px auto 0;
         height: 904px;
+        /* border: 1px solid red; */
     }
 
     footer h3 {
         font-size: 25px;
-        width: 131px;
-        margin-top: 60px;
+        width: auto;
+        margin-top: 40px;
+        text-align: center;
         /* margin: auto;*/
         /* border: 1px solid red;  */
     }
 
     .socio-icon {
         width: 70px;
-        margin: auto;
+        margin: 0 auto;
     }
 
     form {
+        width: 100%;
+        max-width: 350px;
         font-size: 16px;
     }
 
@@ -198,35 +421,41 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     header {
-        width: 100%;
+        height: auto;
     }
 
     .header-content {
-        width: 765px;
+        max-width: 765px;
+        padding: 10px;
     }
 
     main {
-        width: 765px;
+        max-width: 765px;
     }
 
     .hero-content {
-        width: 360px;
-        height: 354px;
+        max-width: 360px;
+        height: auto;
+        gap: 15px;
         /* border: 1px solid red; */
     }
 
     .hero-content h1 {
-        width: 300px;
+        width: 100%;
+        line-height: 1.2;
+        font-size: 32px;
     }
 
     .hero-content p {
-        width: 350px;
-        height: 220px;
+        max-width: 350px;
+        width: 100%;
+        height: auto;
+        font-size: 18px;
     }
 
     .profile-image {
-        width: 350px;
-        height: 350px;
+        max-width: 350px;
+        height: auto;
         margin-top: 20px;
     }
 
@@ -247,28 +476,24 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     header {
-        width: 992px;
+        max-width: 990px;
     }
 
-    .header-content {
-        width: 990px;
+    .header-content, main {
+        max-width: 990px;
     }
 
-    main {
-        width: 990px;
-    }
-
-    .header-content {
-        width: 488px;
+    .hero-content {
+        max-width: 488px;
     }
 
     .hero-content h1 {
-        width: 386px;
+        max-width: 386px;
     }
 
     .hero-content p {
-        width: 480px;
-        height: 190px;
+        max-width: 480px;
+        height: auto;
     }
 
     .profile-image {
@@ -282,7 +507,7 @@
     }
 
     footer {
-        width: 990px;
+        max-width: 990px;
         height: 904px
     }
 
@@ -292,19 +517,11 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1439px) {
-    header {
-        width: 1190px;
+    header, footer {
+        max-width: 1190px;
     }
 
-    .header-content {
-        width: 1150px;
-    }
-
-    main {
-        width: 1150px;
-    }
-
-    footer {
-        width: 1190px;
+    .header-content, main {
+        max-width: 1150px;
     }
 }
