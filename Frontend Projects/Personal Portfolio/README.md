@@ -25,7 +25,7 @@ The focus will be on learning how to use CSS to create responsive layouts, apply
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/Ifram3/Frontend Projects/Basic HTML Website/index.html
+    git clone https://github.com/Ifram3/Frontend Projects/Personal Portfolio/index.html
     ```
 2. Open the `index.html` file in your browser to view the website.
 
@@ -38,8 +38,19 @@ The focus will be on learning how to use CSS to create responsive layouts, apply
 - **Google Fonts** for typography.
 - **JavaScript** for triggering darkmode feature.
 
-## Future Technolgies
-
 ## What I Learnt
+- Forcing Browser Refresh using Ctrl + Shift + R
+
+- Forcing Favicon Refresh using:
+    ```html 
+    <link rel="icon" href="ifram3.jpg?v=2"> 
+    ``` 
+    but it also worked with just:
+    ```html 
+    <link rel="icon" href="ifram3.jpg?"> 
+    ```
+- How to add support for darkmode using css variables.
+
 
 ## Acknowledgements
+Website Template Inspired by [Roadmap.sh](https://roadmap.sh/projects/portfolio-website) And you can still checkout the project [here](https://roadmap.sh/projects/portfolio-website).
