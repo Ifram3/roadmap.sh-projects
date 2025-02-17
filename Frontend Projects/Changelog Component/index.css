@@ -33,18 +33,33 @@ body {
     color: #b0b0b0;
 }
 
-.spotify {
+.changelog {
     display: flex;
     gap: 40px;
     justify-content: center;
     margin-left: 120px;
 }
 
-.clock {
+/* .timeline {
     border-right: 2px solid #000000;
+} */
+
+.timeline {
+    display: flex;
+    position: relative;
+    align-items: center;
 }
 
-.behaviour {
+.timeline::after {
+    content: "";
+    position: absolute;
+    left: 166px;
+    width: 2px;
+    height: 100%;
+    background-color: #000000;
+}
+
+.dates {
     display: flex;
     flex-direction: column;
     padding-right: 20px;
@@ -53,7 +68,7 @@ body {
     color: #b0b0b0;
 }
 
-.shade {
+/* .progress-line {
     border-radius: 50%;
     background-color: #000000;
     height: 15px;
@@ -84,10 +99,26 @@ body {
 }
 
 .seek {
-    top: 305px;
+    top: 310px;
+} */
+
+.progress-line {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
 }
 
-.premium {
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    left: -48px;
+    top: 41px;
+}
+
+.events {
     display: flex;
     flex-direction: column;
     /* border: 1px solid black; */
