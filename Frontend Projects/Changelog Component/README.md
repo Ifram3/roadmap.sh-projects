@@ -19,10 +19,10 @@ After completing this project, I was able to have a good understanding of how to
 2. Navigate to the project directory and open the `index.html` file in any  modern web browser to view the website.
 
 ### Technologies used:
-- HTML5 for for strucuturing the page semantically
-- CSS3 for styling the page and creating the layout
-- Flexbox for creating responsive layouts.
-- Google Fonts for typography.
+- **HTML5** for for strucuturing the page semantically
+- **CSS3** for styling the page and creating the layout
+- **Flexbox** for creating responsive layouts.
+- **Google Fonts** for typography.
 
 ### Acknowledgements
 Website Template Inspired by [Roadmap.sh](https://roadmap.sh/projects/changelog-component) And you can still checkout the project [here](https://roadmap.sh/projects/changelog-component)
