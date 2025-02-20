@@ -25,7 +25,7 @@ The focus will be on learning how to use CSS to create responsive layouts, apply
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/Ifram3/Frontend Projects/Personal Portfolio/index.html
+    git clone https://github.com/Ifram3/Personal-Portfolio.git
     ```
 2. Open the `index.html` file in your browser to view the website.
 
