@@ -17,19 +17,18 @@ body {
 .header-content {
     text-align: center;
     line-height: 1.8;
-    /* border: 1px solid red; */
 }
 
 .header-content h1 {
     margin-top: 35px;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 450;
     color: #2D3748;
 }
 
 .header-content p {
     margin-bottom: 25px;
-    font-size: 15px;
+    font-size: 0.94rem;
     color: #b0b0b0;
 }
 
@@ -40,17 +39,13 @@ body {
     margin-left: 120px;
 }
 
-/* .timeline {
-    border-right: 2px solid #000000;
-} */
-
 .timeline {
     display: flex;
     position: relative;
-    align-items: center;
+    /* border-right: 2px solid #000000; */
 }
 
-.timeline::after {
+.timeline::before {
     content: "";
     position: absolute;
     left: 166px;
@@ -68,17 +63,29 @@ body {
     color: #b0b0b0;
 }
 
-/* .progress-line {
-    border-radius: 50%;
-    background-color: #000000;
+.progress-line {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    /* border-radius: 50%;
     height: 15px;
     width: 15px;
     position: relative;
     left: -48px;
-    top: 45px;
+    top: 45px; */
 }
 
-.chat {
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    left: -48px;
+    top: 41px;
+}
+
+/* .chat {
     top: 90px;
 }
 
@@ -100,28 +107,11 @@ body {
 
 .seek {
     top: 310px;
-} */
-
-.progress-line {
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-}
-
-.dot {
-    width: 15px;
-    height: 15px;
-    background-color: #000000;
-    border-radius: 50%;
-    position: relative;
-    left: -48px;
-    top: 41px;
-}
+}  */
 
 .events {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
     margin-left: 0;
     position: relative;
     left: -70px;
