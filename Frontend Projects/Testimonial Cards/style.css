@@ -10,88 +10,167 @@ main {
     gap: 10px;
     margin: 10px;
     align-items: center;
+    /* border: 1px solid green; */
 }
 
-.gunna {
+.testimonial-section {
     border: 1px solid red;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    font-size: 14px;
+    justify-content: flex-start;
+    font-size: 17px;
+    max-width: 630px;
+    width: 100%;
+    gap: 35px;
 }
 
-.travis {
+.testimonial-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 10px;
-    margin: 5px;
 }
 
-.night_crawler {
-    width: 240px;
+.testimonial-content {
+    max-width: 295px;
+    width: 100%;
+    line-height: 1.3;
     background-color: black;
     color: white;
     border-radius: 15px;
-    padding: 15px;
+    padding: 18px;
     position: relative;
 }
 
 /* new stuff */
 
-.night_crawler::after {
+.testimonial-content::after {
     content: "";
     position: absolute;
     top: 100%;
-    left: 12%;
+    left: 10%;
     border-width: 10px;
     border-style: solid;
     border-color: black transparent transparent transparent;
 }
 
-#future {
+#testimonial-highlight {
     margin-top: 20px;
 }
 
-.skitzo {
+.testimonial-author {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 10px; 
+    margin-top: 3px;
 }
 
-.skitzo img {
+.testimonial-author img {
     border-radius: 50%;
-    margin-left: 8px;
+    margin-left: 3px;
 }
 
-.skitzo p, .obioha p{
-    font-size: 12px;
+.testimonial-author p, .author-details p{
+    font-size: 13px;
     font-weight: 400;
+    line-height: 1.4;
 }
 
-.scott {
+.testimonial-chat {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    width: 260px;
-    padding: 15px;
-    margin: 5px;
+    max-width: 300px;
+    width: 100%;
+    padding: 20px 20px 15px 15px;
     gap: 12px;
-    font-size: 15px;
+    font-size: 17px;
     border-radius: 15px;
     line-height: 1.3;
 }
 
-.dalu {
+/* .dalu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
     margin-top: 5px;
+} */
+
+.testimonial-author img {
+    border-radius: 50%; 
 }
 
-.dalu img {
+.star-review {
+    margin-top: 10px;
+    gap: 12px;
+}
+
+.reviewer-image {
+    border-radius: 15px;  
+}
+
+.review-stars {
+    border: 2px solid black;
+    max-width: 366px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    
+}
+
+.review-stars .checked {
+    font-size: 20px;
+    color: rgb(255, 186, 59);
+}
+
+.review-stars h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.review-stars h5 {
+    color: grey;
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+
+.review-stars p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ifinime {
+    max-width: 540px;
+    width: 100%;
+    margin: 12px auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 15px;
+}
+
+.chike {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.chike img {
     border-radius: 50%;
 }
 
+#apala {
+    opacity: 40%;
+}
 
+#apala, span {
+    align-self: center;
+}
