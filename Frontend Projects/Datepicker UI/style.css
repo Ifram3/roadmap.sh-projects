@@ -1,0 +1,69 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.ademola {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    margin: 20px 10px 0;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    /* border: 2px solid black; */
+    width: 100px;
+}
+
+.checked {
+    font-size:16px; 
+    margin-right: 8px;
+}
+
+.lookman {
+    max-width: 250px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    margin: 8px 10px;
+    position: absolute;
+    top: 55px;
+    left: 648px;
+    font-weight: bold;
+}
+
+.blaq {
+    border-bottom: 2px solid #d1caca;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #f5f5f5;
+}
+
+.ubor {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nasty {
+    display: flex;
+    justify-content: center;
+    margin: 5px 15px 0; 
+    gap: 22px;
+}
+
+.love {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px 15px 0; 
+    gap: 22px;
+}
