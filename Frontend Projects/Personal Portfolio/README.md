@@ -3,9 +3,9 @@
 ## Description
 The goal of this project is to teach myself how to style a website using CSS. I am to take the structure from the [previous HTML-only project](https://github.com/Ifram3/roadmap.sh-projects/tree/main/Frontend%20Projects/Basic%20HTML%20Website) and apply various CSS techniques to enhance its appearance and responsiveness.
 
-The focus will be on learning how to use CSS to create responsive layouts, apply color and typography, and enhance the overall design of your website. Below is the rough mockups of the website structure for mobile and desktop devices. 
+The focus will be on learning how to use CSS to create responsive layouts, apply color and typography, and enhance the overall design of your website. Below are the rough mockups of the website structure for mobile and desktop devices. 
 
-**NB:** Do not worry about the design details i.e. colors backgrounds etc at this stage; we are not looking for a beautiful design, but a well-structured and responsive website. Just focus on making the layout same as the mockup and ensuring it looks good on different screen sizes.
+**NB:** Do not worry about the design details i.e. colors backgrounds etc at this stage; we are not looking for a beautiful design, but a well-structured and responsive website. Just focus on making the layout the same as the mockup and ensuring it looks good on different screen sizes.
 
 ![Portfolio-Template](images/portfolio-template-xdhki.png)
 
@@ -30,13 +30,13 @@ The focus will be on learning how to use CSS to create responsive layouts, apply
 2. Open the `index.html` file in your browser to view the website.
 
 ## Technologies used:
-- **HTML5** for for strucuturing the page semantically 
+- **HTML5** for for structuring the page semantically 
 - **Meta Tags** and **Open Graph** for SEO and Social Media Optimization.
 - **CSS3** for styling the website and making it responsive.
 - **Flexbox** for creating responsive layouts.
 - **Media Queries** for responsive design.
 - **Google Fonts** for typography.
-- **JavaScript** for triggering darkmode feature.
+- **JavaScript** for triggering the dark mode feature.
 
 ## What I Learnt
 - Forcing Browser Refresh using Ctrl + Shift + R
