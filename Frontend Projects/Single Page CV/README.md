@@ -43,13 +43,13 @@ In this project, I am required to create a single-page CV (Curriculum Vitae) usi
 
 ## What I Learnt
 
-**Open Graph Tags** - Implementing open graph tags was a new challenge, which is because prior to working on the project, I didn't know about them. So I had to learn how to use them to make my CV page display correctly when shared on social media platforms like LinkedIn, Facebook or Twitter.
+**Open Graph Tags** - Implementing open graph tags was a new challenge, which is because prior to working on the project, I didn't know about them. So I had to learn how to use them to make my CV page display correctly when shared on social media platforms like LinkedIn, Facebook, or Twitter.
 
-**Meta Tags** - In my aim to include essential meta tags for SEO, I learnt a new one which is the robots meta tag that is used to instruct robots or search engine crawlers on how to handle the indexing and crawling of a my CV page
+**Meta Tags** - In my aim to include essential meta tags for SEO, I learnt a new one which is the robots meta tag that is used to instruct robots or search engine crawlers on how to handle the indexing and crawling of my CV page
 
 ## Acknowledgments
 
 Resume template image inspired by [Roadmap.sh](https://roadmap.sh/projects/single-page-cv).
 
-You can still checkout the project [here](https://roadmap.sh/projects/single-page-cv)
+You can still check the project [here](https://roadmap.sh/projects/single-page-cv)
 
