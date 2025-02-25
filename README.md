@@ -2,7 +2,7 @@
 
 ## Frontend Projects
 
-A collection of frontend development projects based on the roadmap.sh guide, showcasing my progress and practice with HTML, CSS, and JavaScript. They include the following👇
+A collection of front-end development projects based on the roadmap.sh guide showcasing my progress and practice with HTML, CSS, and JavaScript. They include the following👇
 
 <table>
 
