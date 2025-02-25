@@ -1,9 +1,9 @@
 ## Changelog Component
 
 ### Description
-In this project I am required to create a simple component for a website that displays a changelog. A changelog is a log or record of all notable changes made to a project or software. It is often used to keep users informed about the latest updates and improvements.
+In this project, I am required to create a simple component for a website that displays a changelog. A changelog is a log or record of all notable changes made to a project or software. It is often used to inform users about the latest updates and improvements.
 
-The goal of this project is to teach me about positioning and layout in CSS. I created a simple HTML structure and used CSS to style it into a visually appealing and responsive changelog component. Given below is a rough mockup of the changelog component I needed to create.
+This project aims to teach me about positioning and layout in CSS. I created a simple HTML structure and used CSS to style it into a visually appealing and responsive changelog component. Below is a rough mockup of the changelog component I needed to create.
 
 ![Changelog Component](changelog-component-1m86j.png)
 
@@ -19,7 +19,7 @@ After completing this project, I was able to have a good understanding of how to
 2. Navigate to the project directory and open the `index.html` file in any  modern web browser to view the website.
 
 ### Technologies used:
-- **HTML5** for for strucuturing the page semantically
+- **HTML5** for structuring the page semantically
 - **CSS3** for styling the page and creating the layout
 - **Flexbox** for creating responsive layouts.
 - **Google Fonts** for typography.
