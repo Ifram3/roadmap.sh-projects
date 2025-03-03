@@ -30,6 +30,10 @@ A collection of front-end development projects based on the roadmap.sh guide sho
       <h2><a href="https://roadmap.sh/projects/testimonial-cards">Testimonial Cards</a></h2>
       <a href="Frontend Projects/Testimonial Cards/index.html"><img src="Images/Testimonial-Cards_screenshot.png" width="400"></a>
     </td>
+    <td>
+      <h2><a href="https://roadmap.sh/projects/datepicker-ui">Datepicker UI</a></h2>
+      <a href="Frontend Projects/Datepicker UI/index.html"><img src="Images/Datepicker-UI_screenshot.png" width="400"></a>
+    </td>
   </tr>
 
 </table>
