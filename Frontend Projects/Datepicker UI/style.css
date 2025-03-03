@@ -1,69 +1,90 @@
-.main {
+.calender-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
+    align-items:center;
 }
 
-.ademola {
-    border: 2px solid black;
+.date-input-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 200px;
+    max-width: 12.5rem;
     width: 100%;
-    margin: 20px 10px 0;
+    margin: 1.25rem .63rem 0;
+    border: 2px solid #000000;
 }
 
-input {
-    padding: 8px;
+.date-input-wrapper input {
+    max-width: 6.25rem;
+    width: 100%;
+    padding: .5rem;
     border: none;
-    /* border: 2px solid black; */
-    width: 100px;
 }
 
 .checked {
-    font-size:16px; 
-    margin-right: 8px;
+    font-size: 1rem; 
+    margin-right: .5rem;
 }
 
-.lookman {
-    max-width: 250px;
+.calender {
+    max-width: 15.63rem;
     width: 100%;
-    height: 300px;
-    border: 2px solid black;
-    margin: 8px 10px;
-    position: absolute;
-    top: 55px;
-    left: 648px;
+    min-height: 20rem;
+    margin: .5rem 0.63rem;
     font-weight: bold;
+    border: 2px solid #000000;
+    box-shadow: 0px 2px 12px 0px #a9a4a4;
+    position: relative;
+    left: 1.5rem;
 }
 
-.blaq {
-    border-bottom: 2px solid #d1caca;
+.calender-header {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: .5rem;
     background-color: #f5f5f5;
+    border-bottom: 2px solid #d1caca;
 }
 
-.ubor {
+.weekdays, .first-week, 
+.second-week, .third-week, 
+.last-week {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    justify-content: space-around;
+    margin-bottom: 1.25rem;
 }
 
-.nasty {
-    display: flex;
-    justify-content: center;
-    margin: 5px 15px 0; 
-    gap: 22px;
+.weekdays {
+    margin-top: 0.63rem;   
 }
 
-.love {
+#first-day {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 5px 15px 0; 
-    gap: 22px;
+    justify-content: flex-end;
+    margin: 0 0.75rem 1.25rem;
+}
+
+.first-week {
+    gap: .63rem;
+    margin-left: .19rem;
+    margin-right: .19rem;
+}
+
+.second-week {
+    gap: .13rem;
+    margin-left: .13rem;
+}
+
+#selected-day {
+    margin-left: .31rem;
+}
+
+.third-week {
+    gap: .13rem;
+}
+
+.last-week {
+    justify-content: flex-start;
+    gap: 1.25rem;
+    margin-left: .56rem;
 }
