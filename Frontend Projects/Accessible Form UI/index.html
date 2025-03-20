@@ -7,50 +7,54 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <main class="main">
-        <section class="ogechi">
+    <main class="container">
+        <section class="form-section">
             <form action="">
-                <label for="name">Full Name</label> <br>
-                <input type="text" id="name" class="qing" placeholder="What should we call you?" required> <br>
+                <label for="name" tabindex="0">Full Name</label> <br>
+                <input type="text" id="name" class="input-field" placeholder="What should we call you?" required aria-invalid="false"> <br>
                 
-                <label for="email" class="nzaza">Email <br>
-                <input type="email" id="email" class="qing ifinime" placeholder="john@doe.com" required>
-                <p>Email is already taken</p> </label><br><br>  
+                <label for="email" class="email-label" tabindex="0">Email</label> <br>
+                <input type="email" id="email" class="input-field email-error" placeholder="john@doe.com" required aria-invalid="false">
+                <p tabindex="0">Email is already taken</p> <br><br>  
 
-                <label for="passwd">Enter Password</label><br>
-                <input type="password" id="passwd" class="qing" placeholder="xxxxxxxx" required>
-                <span><img src="images/icons8-visibility-30.png" alt="show password"></span>
+                <label for="password" tabindex="0">Enter Password</label><br>
+                <input type="password" id="password" class="input-field" placeholder="xxxxxxxx" required aria-invalid="false">
+                <button type="button" id="toggle-password" aria-label="Show password" aria-pressed="false">
+                    <img src="images/icons8-visibility-30.png" alt="">
+                </button>
                 <br>
 
-                <label for="pass">Confirm Password</label><br>
-                <input type="password" id="pass"  class="qing" placeholder="xxxxxxxx" required>
-                <span><img src="images/icons8-visibility-30.png" alt="show password"></span>
-                <br>
+                <label for="confirm-password" tabindex="0">Confirm Password</label><br>
+                <input type="password" id="confirm-password" class="input-field" placeholder="xxxxxxxx" required aria-invalid="false">
+                <button type="button" id="toggle-password" aria-label="Show password" aria-pressed="false">
+                    <img src="images/icons8-visibility-30.png" alt="">
+                </button>
+                <br> 
                 
-                <button>Update Profile</button>
+                <button tabindex="0">Update Profile</button>
             </form>
         </section>
 
-        <section class="banks">
-            <svg width="140" height="140" viewBox="0 0 100 100">
+        <section class="profile-progress">
+            <svg width="140" height="140" viewBox="0 0 100 100" tabindex="0">
                 <circle cx="50" cy="50" r="45" stroke="grey" stroke-width="5" fill="none" />
                 <circle cx="50" cy="50" r="45" stroke="black" stroke-width="5" fill="none"
                 stroke-dasharray="283" stroke-dashoffset="142" stroke-linecap="round" 
-                transform="rotate(90 50 50)"/>
+                transform="rotate(90 50 50)" />
 
                 <text x="50" y="55" text-anchor="middle" font-size="24" font-weight="bold" 
-                fill="black"> 65% </text>
+                fill="black" tabindex="0"> 65% </text>
             </svg>
 
-            <h1 style="font-weight: 540;">Profile Completeness</h1>
+            <h1 style="font-weight: 540;" tabindex="0">Profile Completeness</h1>
 
-            <div class="dele">
+            <div class="progress-steps" tabindex="0">
                 <ul>
-                    <li id="high"><p>Create Account</li>
-                    <li id="high">Update Roadmap Progress</li>
-                    <li id="high">Setup Public Profile</li>
-                    <li>Complete your first project</li>
-                    <li>Invite your friends</li>
+                    <li id="completed-step" tabindex="0">Create Account</li>
+                    <li id="completed-step" tabindex="0">Update Roadmap Progress</li>
+                    <li id="completed-step" tabindex="0">Setup Public Profile</li>
+                    <li tabindex="0">Complete your first project</li>
+                    <li tabindex="0">Invite your friends</li>
                 </ul>
             </div>
         </section>

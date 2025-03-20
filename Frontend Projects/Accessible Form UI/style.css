@@ -7,7 +7,7 @@ body {
     background-color: #ffffff;
 }
 
-.main {
+.container {
     display: flex;
     justify-content: flex-start;
     gap: 50px;
@@ -20,7 +20,7 @@ body {
     border-radius: 35px; 
 }
 
-.ogechi {
+.form-section {
     padding-left: 20px;
 }
 
@@ -28,12 +28,16 @@ label, button {
     font-size: 1.4rem;
 }
 
-.qing {
+.input-field {
     width: 330px;
     margin: 10px auto 18px;
     padding: 20px 12px 14px;
     border: 2px solid #000000;
     border-radius: 8px;
+}
+
+.input-field:focus {
+    background-color: #cecdcd;
 }
 
 ::placeholder {
@@ -42,26 +46,31 @@ label, button {
     letter-spacing: 0.8px;
 }
 
-.ifinime {
+.email-error {
     margin-bottom: 15px;
     padding: 20px 18px 14px;
     border: 2px solid #ff0000;
 }
 
-.nzaza p{
+p{
     font-size: 1rem;
     color: #EB0000; 
 }
 
-.ifinime::placeholder{
+.email-error::placeholder{
     color: #ff0000;
 }
 
-span img {
-    width: 25px;
+button#toggle-password {
+    background: none;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 5px;
+    width: 38px;
     position: relative;
     top: 6px;
-    left: -42px;
+    left: -48px;
 }
 
 button {
@@ -73,7 +82,7 @@ button {
     border-radius: 15px;
 }
 
-.banks {
+.profile-progress {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,7 +90,7 @@ button {
     margin-top: 10px;
 }
 
-.dele {
+.progress-steps {
     min-height: 350px;
     display: flex;
     flex-direction: column;
@@ -90,7 +99,7 @@ button {
     border-radius: 35px;
 }
 
-.dele ul {
+.progress-steps ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -100,7 +109,7 @@ button {
     font-size: 1.25rem;
 }
 
-#high {
+#completed-step {
     color: #666666;
     text-decoration: line-through;
     text-decoration-thickness: 2px;

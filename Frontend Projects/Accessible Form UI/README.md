@@ -26,3 +26,26 @@ You should read up on accessibility guidelines and best practices before startin
 Once done, you can test the form UI using a screen reader or browser extensions like Axe or Lighthouse to check for accessibility issues and make necessary adjustments.
 
 After completing this project, you will have a solid foundation in creating accessible and well-structured forms using HTML and CSS. You can later enhance this form by adding JavaScript to make it fully functional and dynamic in future projects.
+
+### How to view this project:
+1. Clone this repository to your local machine.
+    ```bash
+    git clone https://github.com/Ifram3/accessible-form-ui.git
+    ```
+2. Open the `index.html` file in your preferred web browser to view the form UI. 
+
+3. You can also open the `style.css` file in your preferred code editor to view. 
+
+### Technologies used:
+- **HTML5** for structuring the page semantically
+- **CSS3** for styling and layout
+- **Git** for version control
+- **Flexbox** for creating flexible and reposnsive layouts
+- **CSS Pseudo-elements** for styling elements based on their content
+- **ARIA attributes** for improving accessibility
+- **WCAG guidelines** for ensuring accessibility and usability
+
+### Acknowledgement
+Website Template Inspired by [Roadmap.sh](https://roadmap.sh/projects/accessible-form-ui) And you can still checkout the project [here](https://roadmap.sh/projects/accessible-form-ui) 
+
+
