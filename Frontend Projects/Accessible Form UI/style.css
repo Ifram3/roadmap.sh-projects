@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 40px 0px 40px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000000;
+    border-radius: 35px; 
+}
+
+.ogechi {
+    padding-left: 20px;
+}
+
+label, button {
+    font-size: 1.4rem;
+}
+
+.qing {
+    width: 330px;
+    margin: 10px auto 18px;
+    padding: 20px 12px 14px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
+::placeholder {
+    font-size: 1.4rem;
+    color: #cecdcd;
+    letter-spacing: 0.8px;
+}
+
+.ifinime {
+    margin-bottom: 15px;
+    padding: 20px 18px 14px;
+    border: 2px solid #ff0000;
+}
+
+.nzaza p{
+    font-size: 1rem;
+    color: #EB0000; 
+}
+
+.ifinime::placeholder{
+    color: #ff0000;
+}
+
+span img {
+    width: 25px;
+    position: relative;
+    top: 6px;
+    left: -42px;
+}
+
+button {
+    width: 315px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 12px;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+.banks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.dele {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e5e5;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+.dele ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+
+#high {
+    color: #666666;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #a5a5a5;
+}
+
+
+
+
+
+

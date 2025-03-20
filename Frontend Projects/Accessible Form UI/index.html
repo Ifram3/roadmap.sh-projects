@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <main class="main">
+        <section class="ogechi">
+            <form action="">
+                <label for="name">Full Name</label> <br>
+                <input type="text" id="name" class="qing" placeholder="What should we call you?" required> <br>
+                
+                <label for="email" class="nzaza">Email <br>
+                <input type="email" id="email" class="qing ifinime" placeholder="john@doe.com" required>
+                <p>Email is already taken</p> </label><br><br>  
+
+                <label for="passwd">Enter Password</label><br>
+                <input type="password" id="passwd" class="qing" placeholder="xxxxxxxx" required>
+                <span><img src="images/icons8-visibility-30.png" alt="show password"></span>
+                <br>
+
+                <label for="pass">Confirm Password</label><br>
+                <input type="password" id="pass"  class="qing" placeholder="xxxxxxxx" required>
+                <span><img src="images/icons8-visibility-30.png" alt="show password"></span>
+                <br>
+                
+                <button>Update Profile</button>
+            </form>
+        </section>
+
+        <section class="banks">
+            <svg width="140" height="140" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" stroke="grey" stroke-width="5" fill="none" />
+                <circle cx="50" cy="50" r="45" stroke="black" stroke-width="5" fill="none"
+                stroke-dasharray="283" stroke-dashoffset="142" stroke-linecap="round" 
+                transform="rotate(90 50 50)"/>
+
+                <text x="50" y="55" text-anchor="middle" font-size="24" font-weight="bold" 
+                fill="black"> 65% </text>
+            </svg>
+
+            <h1 style="font-weight: 540;">Profile Completeness</h1>
+
+            <div class="dele">
+                <ul>
+                    <li id="high"><p>Create Account</li>
+                    <li id="high">Update Roadmap Progress</li>
+                    <li id="high">Setup Public Profile</li>
+                    <li>Complete your first project</li>
+                    <li>Invite your friends</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
