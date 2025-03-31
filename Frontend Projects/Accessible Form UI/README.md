@@ -11,7 +11,7 @@ The goal of this project is to not only help me practice my HTML and CSS but als
 
 You should read up on accessibility guidelines and best practices before starting this project. However, here are some key points to keep in mind while creating an accessible form UI:
 
-- **Labeling**: Ensure that each form field has a corresponding ``<label>`` element that is clearly associated with the field using the for attribute.
+- **Labeling**: Ensure that each form field has a corresponding ``<label>`` element associated with the field using the for attribute.
 
 - **Focus State**: Style the focus state of each input field so that users navigating with a keyboard can easily see which field is currently active.
 
@@ -21,7 +21,7 @@ You should read up on accessibility guidelines and best practices before startin
 
 - **Color Contrast**: Ensure that the color contrast between text and background is sufficient to meet WCAG (Web Content Accessibility Guidelines) standards, making the form readable for users with visual impairments.
 
-- **Interactive Elements**: Make sure that the button to show/hide the password is accessible via keyboard and screen readers, providing clear feedback on the current state (e.g., “Password is hidden” or “Password is visible”).
+- **Interactive Elements**: Make sure that the button to show/hide the password is accessible via keyboard and screen readers and provides clear feedback on the current state (e.g., “Password is hidden” or “Password is visible”).
 
 Once done, you can test the form UI using a screen reader or browser extensions like Axe or Lighthouse to check for accessibility issues and make necessary adjustments.
 
@@ -40,7 +40,7 @@ After completing this project, you will have a solid foundation in creating acce
 - **HTML5** for structuring the page semantically
 - **CSS3** for styling and layout
 - **Git** for version control
-- **Flexbox** for creating flexible and reposnsive layouts
+- **Flexbox** for creating flexible and responsive layouts
 - **CSS Pseudo-elements** for styling elements based on their content
 - **ARIA attributes** for improving accessibility
 - **WCAG guidelines** for ensuring accessibility and usability
