@@ -11,22 +11,22 @@
         <section class="form-section">
             <form action="">
                 <label for="name" tabindex="0">Full Name</label> <br>
-                <input type="text" id="name" class="input-field" placeholder="What should we call you?" required aria-invalid="false"> <br>
+                <input type="text" id="name" class="input-field" placeholder="What should we call you?" required aria-invalid="false" autocomplete="on"> <br>
                 
                 <label for="email" class="email-label" tabindex="0">Email</label> <br>
-                <input type="email" id="email" class="input-field email-error" placeholder="john@doe.com" required aria-invalid="false">
+                <input type="email" id="email" class="input-field email-error" placeholder="john@doe.com" required aria-invalid="false" autocomplete="on">
                 <p tabindex="0">Email is already taken</p> <br><br>  
 
                 <label for="password" tabindex="0">Enter Password</label><br>
                 <input type="password" id="password" class="input-field" placeholder="xxxxxxxx" required aria-invalid="false">
-                <button type="button" aria-label="Show password" aria-pressed="false">
+                <button type="button" class="toggle-password" aria-label="Show password" aria-pressed="false">
                     <img src="images/icons8-visibility-30.png" alt="">
                 </button>
                 <br>
 
                 <label for="confirm-password" tabindex="0">Confirm Password</label><br>
                 <input type="password" id="confirm-password" class="input-field" placeholder="xxxxxxxx" required aria-invalid="false">
-                <button type="button" aria-label="Show password" aria-pressed="false">
+                <button type="button" class="toggle-password" aria-label="Show password" aria-pressed="false">
                     <img src="images/icons8-visibility-30.png" alt="">
                 </button>
                 <br> 
