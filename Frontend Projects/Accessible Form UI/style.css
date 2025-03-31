@@ -61,7 +61,7 @@ p{
     color: #ff0000;
 }
 
-button#toggle-password {
+button.toggle-password {
     background: none;
     border: none;
     border-radius: 0;
