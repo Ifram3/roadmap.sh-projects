@@ -5,7 +5,6 @@ In this project, I am required to create a single-page CV (Curriculum Vitae) usi
 
 ![resume-template](images/resume-template-zyl70.png)
 
-
 ## Key requirements for this project:
 
 * Semantic HTML: Use appropriate HTML tags to structure your CV.
