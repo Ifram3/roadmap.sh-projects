@@ -16,23 +16,19 @@
 }
 
 body {
-    border: 2px solid var(--font-color);
     margin: 30px;
+    color: var(--font-color);
+    background-color: var(--bgcolor);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 540;
     font-size: 20px;
-    color: var(--font-color);
-    background-color: var(--bgcolor);
+    border: 2px solid var(--font-color);
 }
 
 header {
-    /* display: flex;
-    justify-content: space-between; */
-    /* align-items: flex-start; */
-    border-bottom: 2px solid var(--font-color);
-    height: 300px;
+    max-height: 300px;
     margin-top: 20px;
-    /* flex-flow: row wrap; */
+    border-bottom: 2px solid var(--font-color);
 }
 
 .whenIgrowup {
@@ -42,24 +38,19 @@ header {
 }
 
 .brand {
-    margin-left: 30px ; 
-    /* flex-basis: 100px; */
-    /* flex: 0.5; */
-    /* max-width: 200px; */
-    /* border: 1px solid red; */
-    /* flex-wrap: wrap; */
     display: flex;
     gap: 10px;
+    margin-left: 30px ; 
 }
 
 .brand > img {
-    width: 50px;
+    width: 100%;
+    max-width: 50px;
 }
 
 #span {
-    /* vertical-align: middle; */
-    font-weight: 550;
     align-self: center;
+    font-weight: 550;
 }
 
 .whenIgrowup nav {
@@ -67,23 +58,19 @@ header {
 }
 
 nav ul{
-    /* flex-basis: 100px; */
-    /* flex: 2; */
     display: flex;
     gap: 10px; 
     list-style: none;
-    /* margin: 0 30px 0 0; */
     margin: 0 10px 0 0;
     padding: 0;
-    /* flex-flow: row wrap; */
     /* border: 1px solid red; */
 }
 
 li a {
-    text-decoration: none;
     margin-right: 10px;
     color: var(--font-color);
     font-weight: 550;
+    text-decoration: none;
 }
 
 nav li:not(:last-child)::after {
@@ -95,10 +82,11 @@ nav li:not(:last-child)::after {
 }
 
 .refix {
-    position: relative;
-    width: 60px;
-    height: 34px;
+    width: 100%;
+    min-width: 60px;
+    min-height: 34px;
     display: inline-block;
+    position: relative;
     top: -6px;
 }
 
@@ -107,26 +95,26 @@ nav li:not(:last-child)::after {
 }
 
 .leelee {
+    background-color: var(--font-color);
+    border-radius: 36px;
+    transition: .4s;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
-    transition: .4s;
-    background-color: var(--font-color);
-    border-radius: 36px;
+    bottom: 0;  
 }
 
 .leelee::before {
-    position: absolute;
-    content: "";
-    background-color: #FFFFFF;
     width: 25px;
     height: 25px;
-    left: 4px;
-    top: 5px;
+    background-color: #FFF;
+    content: "";
     border-radius: 50%;
     transition: .4s;
+    position: absolute;
+    left: 4px;
+    top: 5px;
 }
 
 input:checked + .leelee {
@@ -138,68 +126,65 @@ input:checked + .leelee::before {
 }
 
 .title {
-    /* align-self: center;
-    align-items: center; */
-    line-height: 10px;
-    /* flex-basis: 600px; */
-    /* flex: 3; */
-    text-align: center;
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
-    /* border: 1px solid red; */
     margin-top: 50px;
+    line-height: 10px;
+    text-align: center;
+    /* border: 1px solid red; */
 }
 
 .title > h1 {
-    font-family: "Lacquer", serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 50px;
 }
 
+.title > h1, aside h3, 
+.work-experience h3,
+#work, .education h3,
+.reviews h3,
+footer {
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .title p {
+    color: var(--primary-color);
     font-family: "Hind Mysuru", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: var(--primary-color);
     font-size: 20px;
 }
 
 .main-upper {
-    display: flex;
     height: 450px;
+    display: flex;
     border-bottom: 2px solid var(--font-color);
 }
 
 aside {
+    min-width: 300px;
     display: flex;
     flex-direction: column;
-    /* flex-basis: 300px; */
-    min-width: 300px;
     flex: 1;
     border-right: 2px solid var(--font-color);
 }
 
 aside h3 {
     padding-left: 30px;
-    font-family: "Lacquer", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 nav p {
     margin-top: 0;
-    border-bottom: 2px solid var(--font-color);
-    padding-left: 30px;
     padding-bottom: 10px;
+    padding-left: 30px;
+    border-bottom: 2px solid var(--font-color);
 }
 
 p a {
     padding: 10px 0;
-    text-decoration: none;
     color: var(--font-color);
+    text-decoration: none;
 }
 
 #product {
@@ -207,44 +192,37 @@ p a {
 }
 
 .work-experience {
-    /* flex-basis: 700px; */
     min-width: 500px;
+    flex-flow: row wrap;
     flex: 3;
     border-right: 2px solid var(--font-color);
-    flex-flow: row wrap;
 }
 
 .work-experience h3 {
-    padding-left: 30px;
-    font-family: "Lacquer", serif;
-    font-weight: 400;
-    font-style: normal;
     margin-bottom: 35px;
+    padding-left: 30px;
 }
 
 #roadmap {
+    padding-bottom: 30px;
     padding-left: 30px;
     line-height: 13px;
-    padding-bottom: 30px;
     border-bottom: 2px solid var(--font-color);
 }
 
 #work {
-    font-family: "Lacquer", serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 15px;
 }
 
 #roadmap a {
+    color: var(--secondary-color);
     font-size: 16px;
     text-decoration: none;
-    color: var(--secondary-color);
 }
 
 #opensource {
-    padding-left: 30px;
     padding-top: 5px;
+    padding-left: 30px;
 }
 
 #made {
@@ -252,9 +230,9 @@ p a {
 }
 
 #opensource a {
+    color: var(--secondary-color);
     font-size: 16px;
     text-decoration: none;
-    color: var(--secondary-color);
 }
 
 .education {
@@ -263,19 +241,13 @@ p a {
     padding-left: 30px;
 }
 
-.education h3 {
-    font-family: "Lacquer", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 #courses {
     margin-top: 25px;
 }
 
 .education ul {
-    list-style-type: none;
     padding: 0;
+    list-style-type: none;
     line-height: 25px;
 }
 
@@ -284,14 +256,8 @@ p a {
 }
 
 .reviews {
-    margin-left: 30px;
     height: 300px;
-}
-
-.reviews h3 {
-    font-family: "Lacquer", serif;
-    font-weight: 400;
-    font-style: normal;
+    margin-left: 30px;
 }
 
 .review {
@@ -301,9 +267,9 @@ p a {
 }
 
 .cementcity {
-    border: 2px solid var(--font-color);
     padding: 0 15px;
     border-radius: 40px;
+    border: 2px solid var(--font-color);
 }
 
 .staff {
@@ -311,11 +277,8 @@ p a {
 }
 
 footer {
-    text-align: center;
-    font-family: "Lacquer", serif;
-    font-weight: 400;
-    font-style: normal;
     height: 80px;
+    text-align: center;
 }    
 
 
@@ -327,27 +290,15 @@ footer {
         height: 575px;
     }
 
-    aside {
+    aside,
+    .work-experience {
         min-width: 190px;  
     }
 
-    aside h3 {
-        padding-left: 15px;
-    }
-
-    nav p {
-        padding-left: 15px;
-    }
-
-    .work-experience {
-        min-width: 190px;   
-    }
-
-    .work-experience h3 {
-        padding-left: 15px;
-    }
-
-    #roadmap {
+    aside h3, nav p,
+    .work-experience h3,
+    #roadmap, #opensource, 
+    .education {
         padding-left: 15px;
     }
 
@@ -355,13 +306,8 @@ footer {
         line-height: 20px;
     }
 
-    #opensource {
-        padding-left: 15px;
-    }
-
     .education {
         min-width: 265px;
-        padding-left: 15px;
         padding-right: 5px;
     }  
 }
@@ -445,78 +391,79 @@ footer {
 
     .title h1 {
         font-size: 25px;
-        min-width: 100px;
     }
 
-    .title p {
-        min-width: 100px;
-        font-size: 15px;
-    }
-
-    .main-upper {
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-    }
-
-    aside {
-        border-right: none;
-        text-align: center;
-        min-width: 100px;
-        border-bottom: 2px solid var(--font-color); 
-    }
-
-    aside h3 {
-        border-bottom: 2px solid var(--font-color);
-        padding-bottom: 20px;
-        padding-top: 20px;
-        margin: 0;
-    }
-
-    aside nav {
-        background-color: var(--nav-color);
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-top: 15px;
-    }
-
-    .work-experience {
-        border-right: none;
-        min-width: 100px;
-    }
-
-    .work-experience h3{
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding: 15px 0;
-        border-bottom: 2px solid var(--font-color);
-        font-size: 20px;
-        background-color: var(--bgcolor);
-    }
-
-    #roadmap {
-        /* margin-top: 0;
-        margin-bottom: 0; */
-        padding-top: 15px;
-        background-color: var(--nav-color);
-    }
-
-    #opensource {
-        background-color: var(--nav-color);
-        padding-top: 10px;
-        padding-bottom: 30px;
-        border-bottom: 2px solid var(--font-color);
-    }
-
+    .title h1, .title p,
+    aside, .work-experience,
     .education {
         min-width: 100px;
     }
 
-    .education h3 {
+    .title p {
+        font-size: 15px;
+    }
+
+    .main-upper {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    aside {
         text-align: center;
+        border-right: none; 
+    }
+
+    aside, aside h3,
+    .work-experience h3,
+    #opensource {
+        border-bottom: 2px solid var(--font-color);
+    }
+
+    aside h3 {
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    aside nav {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 15px;
+    }
+
+    aside nav,
+    #roadmap,
+    #opensource {
+        background-color: var(--nav-color);
+    }
+
+    .work-experience {
+        border-right: none;
+    }
+
+    .work-experience h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 15px 0;
+        background-color: var(--bgcolor);
         font-size: 20px;
+        text-align: center;
+    }
+
+    #roadmap {
+        padding-top: 15px;
+    }
+
+    #opensource {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .education h3 {
         padding-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
     }
 
     #courses {
@@ -525,21 +472,20 @@ footer {
     }
 
     .reviews {
-        /* background-color: aqua; */
         max-height: 920px; 
         min-width: 100px;   
         margin-left: 0;
     }
 
     .reviews h3 {
-        font-size: 20px;
         padding-left: 30px;
+        font-size: 20px;
     }
 
     .review {
         flex-direction: column;
-        padding: 0 20px 0 30px;
         margin-right: 10px;
+        padding: 0 20px 0 30px;
     }
 
     .hide {
@@ -552,10 +498,10 @@ footer {
     }
 
     footer {
-        /* background-color: red; */
-        font-size: 20px;
-        min-height: 50px;
         min-width: 100px;
+        min-height: 50px;
+        font-size: 20px;
+        /* background-color: red; */
     }    
 }
 
@@ -566,18 +512,14 @@ footer {
         margin-left: -14px;
     }
 
-    #roadmap, #opensource {
+    #roadmap, #opensource,
+    .education, .reviews h3 {
         padding-left: 20px;
     }
 
     .education {
-        padding-left: 20px;
         padding-right: 10px;
     }
-
-    .reviews h3{
-        padding-left: 20px;
-    } 
 }
 
 @media screen and (max-width: 393px) {
@@ -589,30 +531,18 @@ footer {
         text-align: left;
     }
 
-    aside h3 {
-        padding-left: 20px;
-    }
-
-    nav p {
+    aside h3, nav p,
+    #roadmap, #opensource,
+    .education, .reviews h3 {
         padding-left: 20px;
     }
 
     #roadmap {
         line-height: 20px;
-        padding-left: 20px;
-    }
-
-    #opensource {
-        padding-left: 20px;
     }
 
     .education {
-        padding-left: 20px;
         padding-right: 10px;
-    }
-
-    .reviews h3{
-        padding-left: 20px;
     }
 }
 
@@ -625,26 +555,16 @@ footer {
         text-align: left;
     }
 
-    aside h3 {
+    aside h3, nav p,
+    #roadmap, #opensource,
+    .education, .reviews h3 {
         padding-left: 20px;
     }
 
-    nav p {
-        padding-left: 20px;
-    }
-
-    #roadmap, #opensource {
-        padding-left: 20px;
-        padding-right: 10px;
-    }
-
+    #roadmap, 
+    #opensource,
     .education {
-        padding-left: 20px;
         padding-right: 10px;
-    }
-
-    .reviews h3{
-        padding-left: 20px;
     }
 }
 
@@ -661,10 +581,7 @@ footer {
         text-align: left;
     }
 
-    aside h3 {
-        padding-left: 20px;
-    }
-
+    aside h3,
     nav p {
         padding-left: 20px;
     }
@@ -697,8 +614,8 @@ footer {
     }
 
     #span {
-        right: 1px;
         top: -5px;
+        right: 1px;
     }
 
     .hosanna {
@@ -721,14 +638,14 @@ footer {
     }
 
     nav ul {
-        margin-left: 0;
-        gap: 5px;
         flex-direction: column;
+        gap: 5px;
+        margin-left: 0;
     }
 
     li a {
-        margin-left: -10px;
         gap: 10px;
+        margin-left: -10px;
     }
 
     nav li:not(:last-child)::after {
@@ -737,15 +654,15 @@ footer {
 
     .title {
         margin-top: 5px;  
-        text-align: left;
         margin-left: 10px;
+        text-align: left;
     }
 
     .title h1 {
-        font-size: 15px;
         min-width: 100px;
-        line-height: 18px;
         margin-bottom: -3px;
+        font-size: 15px;
+        line-height: 18px;
     }
 
     .title p {
@@ -755,18 +672,18 @@ footer {
     }
 
     aside {
-        text-align: left;
         margin: 0;
+        text-align: left;
     }
 
     aside h3{
-        padding: 10px 0 10px 8px;
         margin: 0 0.8px 0 0;
+        padding: 10px 0 10px 8px;
     }
 
     aside nav {
-        padding: 10px 0;
         margin: 0 0.8px 0 0;
+        padding: 10px 0;
     }
 
      nav p {
@@ -774,16 +691,16 @@ footer {
     } 
 
     .work-experience h3 {
-        text-align: left;
-        padding-left: 10px; 
-        font-size: 15px;
         margin: 0 0.8px 0 0;
+        padding-left: 10px;
+        font-size: 15px;
+        text-align: left;
     }
 
     #roadmap, #opensource {
-        text-align: left;
-        padding-left: 10px;
         margin: 0 0.8px 0 0;
+        padding-left: 10px;
+        text-align: left;
     }
 
     #work {
@@ -796,30 +713,20 @@ footer {
     }
 
     #roadmap a, #opensource a {
-        line-height: 5px;
         margin-top: 10px;
+        line-height: 5px;
         font-size: 10px;
     }
-    
-    /* #roadmap {
-        text-align: left;
-        padding-left: 10px;
-    }
-
-    #opensource {
-        text-align: left;
-        padding-left: 10px;
-    } */
 
     .education {
         padding-left: 10px;   
     }
 
     .education h3 {
-        text-align: left;
+        margin-bottom: 0;
         padding-bottom: 0;
-        margin-bottom: 0; 
         font-size: 15px;
+        text-align: left;
     }
 
     .education div {
@@ -831,14 +738,14 @@ footer {
     }
 
     .reviews {
-        max-height: 230px;
         min-width: 99px;
+        max-height: 230px;
     }
 
     .reviews h3 {
-        font-size: 15px;
-        padding-left: 5px;
         margin-left: 5px;
+        padding-left: 5px;
+        font-size: 15px;
     }
 
     .review {
@@ -852,8 +759,8 @@ footer {
     }
 
     footer {
-        /* background-color: red; */
-        font-size: 10px;
         max-height: 50px;
+        font-size: 10px;
+        /* background-color: red; */
     }  
 }
