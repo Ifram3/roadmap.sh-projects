@@ -1,12 +1,11 @@
 body {
+    margin: 10px auto;
+    color: #EEEAE3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 540;
     font-size: 20px;
-    background-color: white;
     background-color: #282725;
-    /* border: 2px solid red; */
-    margin: 10px auto;
-    color: #EEEAE3;
+    /* border: 2px solid red; */    
 }
 
 header {
@@ -23,18 +22,22 @@ hr {
 .african_giant {
     display: flex;
     gap: 8px;
-    padding: 10px;
     height: 30px;
-    margin-bottom: 0;
+    padding: 10px;
 }
 
 .african_giant > img {
-    width: 50px;
+    width: 100%;
+    min-width: 50px;
 }
 
 #span {
     align-self:center;
     font-weight: 550;
+}
+
+#span, .star_life > h1,
+h3 {
     font-family: "VT323", serif;
     font-weight: 400;
     font-style: normal;
@@ -42,11 +45,11 @@ hr {
 
 nav ul {
     display: flex;
-    list-style: none;
+    gap: 35px;
     margin-top: 5px;
     margin-bottom: 0;
     padding: 10px;
-    gap: 35px;
+    list-style: none;
 }
 
 li a {
@@ -65,30 +68,21 @@ main {
 }
 
 .star_life > h1 {
-    color: #dfff56;
-    font-family: "VT323", serif;
-    font-weight: 400;
-    font-style: normal;
     margin-bottom: 0;
-}
-
-h3 {
-    font-family: "VT323", serif;
-    font-weight: 400;
-    font-style: normal;
+    color: #dfff56;
 }
 
 .recent_work {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     gap: 40px;
     margin-top: 30px;
     margin-bottom: 10px;
-    justify-content: space-around;
 }
 
 .first {
-    border: 2px solid cadetblue red blue;
+    /* border: 2px solid cadetblue red blue; */
     width: 440px;
     border-radius: 30px;
     box-shadow: 0px 0px 8px 8px #555451;
@@ -176,8 +170,8 @@ footer {
 }
 
 footer > p {
-    text-align: center;
     margin-top: 45px;
+    text-align: center;
 }
 
 
@@ -196,7 +190,6 @@ footer > p {
 
     .african_giant {
         height: 15px;
-
     }
 
     .african_giant > img {
