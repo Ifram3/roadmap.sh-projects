@@ -73,8 +73,12 @@ hr {
 }
 
 .statement h1 {
-    font-family: serif;
     font-size: 45px;
+}
+
+.statement h1,
+#solve {
+    font-family: serif;
     font-weight: 400;
 }
 
@@ -98,7 +102,7 @@ section {
 }
 
 .huge {
-    width: 400px;
+    width: inherit;
     height: 300px;
 }
 
@@ -109,20 +113,19 @@ section {
 
 #calories {
     background-color: #784b78e6;
+}
+
+#calories,
+#diets {
     border-radius: 20px;
-    display: inline-block;
     color: #f3f3f3;
     padding: 5px 10px 3px 10px;
     font-size: 15px;
+    display: inline-block;
 }
 
 #diets {
     background-color: #a56c57;
-    border-radius: 20px;
-    color: #f3f3f3;
-    padding: 5px 10px 3px 10px;
-    font-size: 15px;
-    display: inline-block;
 }
 
 .dui h4 {
@@ -161,8 +164,6 @@ span {
 
 #solve {
     font-size: 42px;
-    font-family: serif;
-    font-weight: 400;
 }
 
 #news {
@@ -273,7 +274,7 @@ footer {
     }
 
     .huge {
-        width: 100px;
+        width: inherit;
         height: 80px;
     }
 
@@ -401,7 +402,7 @@ footer {
     }
 
     .huge {
-        width: 250px;
+        width: inherit;
         height: 170px;
     }
 
@@ -487,7 +488,7 @@ footer {
     }
 
     .huge {
-        width: 300px;
+        width: inherit;
         height: 200px;
     }
 
@@ -535,9 +536,9 @@ footer {
         padding: 30px 40px;
     }
 
-    .statement h1 {
+    /* .statement h1 {
         font-size: px;
-    }
+    } */
 
     section {
         margin-top: 30px;
@@ -552,11 +553,11 @@ footer {
    }
 
    .finance {
-    width: 300px;
+        width: 300px;
    }
 
    .huge {
-    width: 300px;
+        width: inherit;
    }
 } 
 
