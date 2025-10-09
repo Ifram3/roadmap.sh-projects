@@ -1,17 +1,17 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 body {
-    border: 2px solid #000000;
-    border-radius: 25px;
     margin: 10px;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings: "wdth" 100;;
+    font-variation-settings: "wdth" 100;
+    border: 2px solid #000;
+    border-radius: 25px;
 }
 
 .header-content {
@@ -29,20 +29,20 @@ body {
 .header-content p {
     margin-bottom: 25px;
     font-size: 0.94rem;
-    color: #b0b0b0;
+    color: #B0B0B0;
 }
 
 .changelog {
     display: flex;
-    gap: 40px;
     justify-content: center;
+    gap: 40px;
     margin-left: 120px;
+    /* border: 1px solid red; */
 }
 
 .timeline {
     display: flex;
     position: relative;
-    /* border-right: 2px solid #000000; */
 }
 
 .timeline::before {
@@ -51,81 +51,53 @@ body {
     left: 166px;
     width: 2px;
     height: 100%;
-    background-color: #000000;
+    background-color: #000;
 }
 
 .dates {
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
     gap: 40px;
     margin: 43px 20px 60px 0;
-    color: #b0b0b0;
+    padding-right: 20px;
+    color: #B0B0B0;
 }
 
 .progress-line {
     display: flex;
     flex-direction: column;
     gap: 45px;
-    /* border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    position: relative;
-    left: -48px;
-    top: 45px; */
 }
 
 .dot {
     width: 15px;
     height: 15px;
-    background-color: #000000;
+    background-color: #000;
     border-radius: 50%;
     position: relative;
     left: -48px;
     top: 41px;
 }
 
-/* .chat {
-    top: 90px;
-}
-
-.gpt {
-    top: 135px;
-}
-
-.sticky {
-    top: 175px;
-}
-
-.notes {
-    top: 220px;
-}
-
-.deep {
-    top: 265px;
-}
-
-.seek {
-    top: 310px;
-}  */
-
 .events {
     display: flex;
     flex-direction: column;
-    margin-left: 0;
+    gap: 40px;
+    margin-top: 43px;
+    font-size: 16px;
     position: relative;
     left: -70px;
-    margin-top: 43px;
-    gap: 40px;
-    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 button {
-    display: flex;
-    justify-content: center;
-    background-color: #000000;
-    color: #ffffff;
-    margin: 30px auto;
+    background-color: #000;
+    color: #FFF;
+    margin: 30px 0;
     padding: 10px 30px;
     border-radius: 10px;
 }
