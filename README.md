@@ -47,7 +47,7 @@ A collection of front-end development projects based on the roadmap.sh guide sho
     </td>
     <td>
       <h2><a href="https://roadmap.sh/projects/simple-tabs">Simple Tabs</a></h2>
-      <a href="Frontend Projects/Tabs/index.html"><img src="Images/Simple-Tabs_screenshot.png" alt="simple tabs"></a>
+      <a href="Frontend Projects/Simple Tabs/index.html"><img src="Images/Simple-Tabs_screenshot.png" alt="simple tabs"></a>
     </td>
   </tr>
 
