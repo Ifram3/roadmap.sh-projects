@@ -45,6 +45,10 @@ A collection of front-end development projects based on the roadmap.sh guide sho
       <h2><a href="https://roadmap.sh/projects/tooltip-ui">Tooltip UI</a></h2>
       <a href="Frontend Projects/Tooltip UI/index.html"><img src="Images/Tooltip-UI-_screenshot.png" alt="tooltip ui"></a>
     </td>
+    <td>
+      <h2><a href="https://roadmap.sh/projects/simple-tabs">Simple Tabs</a></h2>
+      <a href="Frontend Projects/Tabs/index.html"><img src="Images/Simple-Tabs_screenshot.png" alt="simple tabs"></a>
+    </td>
   </tr>
 
 </table>
