@@ -12,7 +12,7 @@ This project will help you practice selecting elements with JavaScript, listen f
 ### How to view this project:
 1. Clone this repository to your local machine.
     ```
-    git clone https://github.com/Ifram3/tabs.git
+    git clone https://github.com/Ifram3/simple-tabs.git
    ```
 2. Open the `index.html` file in your preferred web browser to view the Tabs.
 3. You can also open the `style.css` file in your preferred code editor to view.
